@@ -1,3 +1,12 @@
+# Combining Gaussian Process and CNN
+This is a coursework for 4F13, modified from the repo `convgp`. To replicate the result, run:
+```bash
+bash gen_data.sh
+bash train.sh
+bash test.sh
+```
+Then you can generate the plots in the report by running the ipynb.
+
 # convgp
 Code for running Gaussian processes with convolutional and symmetric structures. The code is currently being cleaned up
 and will be continuously published over the next week or so. Things that you can expect to come:
