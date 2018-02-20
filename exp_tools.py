@@ -144,6 +144,11 @@ class MnistExperiment(ExperimentBase):
         with suppress_print():
             self.X, self.Y, self.Xt, self.Yt = load_mnist()
 
+class MyMnistExperiment(ExperimentBase):
+    def setup_dataset(self, verbose=False):
+        with suppress_print():
+            pass
+
 
 class RectanglesImageExperiment(ExperimentBase):
     def setup_dataset(self, verbose=False):

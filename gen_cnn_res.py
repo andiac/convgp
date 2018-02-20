@@ -36,5 +36,5 @@ for dataset_name in dataset_names:
     
     print(dataset_name, ":", accuracy)
     
-    pickle.dump(res, open(os.path.join("./myres", dataset_name + ".test.res"), "wb"))
+    pickle.dump(res, open(os.path.join("./myres", dataset_name + "-cnn.test.res"), "wb"))
     

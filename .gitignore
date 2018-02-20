@@ -1,2 +1,6 @@
 *.h5
 __pycache__
+*.res
+*.train
+*.test
+*.pkl
