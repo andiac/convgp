@@ -5,7 +5,9 @@ bash gen_data.sh
 bash train.sh
 bash test.sh
 ```
-Then you can generate the plots in the report by running the ipynb.
+Then you can generate the plots by running plot.ipynb.
+
+The final report is in report.pdf
 
 # convgp
 Code for running Gaussian processes with convolutional and symmetric structures. The code is currently being cleaned up
